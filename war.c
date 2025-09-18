@@ -1,5 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    print("desafio xadrez!\n");
+    printf("desafio xadrez!\n");
+    printf("novo commit\n");
 }
