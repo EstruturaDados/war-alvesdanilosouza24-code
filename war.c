@@ -1,6 +1,13 @@
 #include <stdio.h>
+#include <string.h> // para strcspn
 
-int main(){
-    printf("desafio xadrez!\n");
-    printf("novo commit\n");
-}
+// -- Definição da estrutura (struct) ---
+struct  Territorio {
+    char nome[30];
+    char cor[10];
+    int tropas;
+
+};
+
+// --- Definindo cadrastro dos territórios ---
+
